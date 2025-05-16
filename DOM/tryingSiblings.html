@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TryingSiblings</title>
+        <!-- <style>
+                .second{
+                        list-style-type: none;
+                }
+        </style> -->
+</head>
+
+<body>
+        <ul>
+                <li class="first">One-1</li>
+                <li class="second">Two-2</li>
+                <li class="third">Three-3</li>
+        </ul>
+
+        <script>
+                const res = document.querySelector('.first');
+                console.log(res.nextSibling.nextSibling.textContent);
+                const x = res.nextSibling.nextSibling.textContent;
+                const sec = res.nextSibling.textContent;
+                const y = document.querySelector('.third').textContent;
+                console.log(y);
+                const f=document.querySelector('.third').textContent
+                console.log("-------------------");
+        //change style
+
+       document.querySelector('.first').style.color="Blue";
+       
+document.querySelector('.second').style.color="red";
+document.querySelector('.third').style.width='200px';
+document.querySelector('.third').style.backgroundColor="black";
+document.querySelector('.third').style.color="yellow";
+
+
+
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CreateStuff</title>
+</head>
+
+<body>
+        <h1 id="one">How do you apologize in english?</h1>
+
+
+        <script>
+                let i = 0;
+                let j = parseInt(window.prompt("How many number of times you gotta aplologize?"));
+
+                while (i < j) {
+                        z();
+                        i++;
+                        console.log(i,j);
+                }
+
+                function z() {
+                        let y = document.createElement('p');
+                        y.textContent = i + ':Very Sorry!';
+                        //document.body.append(y);
+                        document.body.appendChild(y);
+                }
+
+
+
+
+
+                //x.appendChild(content);
+        </script>
+</body>
+
+</html>

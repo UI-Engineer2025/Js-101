@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TryingFind</title>
+</head>
+<body>
+
+        <script>
+        const names=[
+                {fname:"Adarsh", lname:"Reddy", id:1201},
+          {fname:"Anudeep", lname:"Dont know", id:1202},
+          {fname:"Anwesh", lname:"Veera boina", id:1203},
+          {fname:"Chaitanya", lname:"Reddy", id:1204},
+          {fname:"Guru", lname:"Charan", id:1205}
+
+        ]
+      
+console.log("Details:");
+      console.log("----------------------------------------------------------------");
+        const res = names.find(
+                (x)=>{
+                        
+                        console.log("Id:"+x.id+"-->First Name:{"+x.fname +"}--Last Name: -->{" +x.lname+"}");
+                        
+//return x.id===1203;     
+                }
+        );
+        //console.log(res);
+         console.log("----------------------------------------------------------------");
+        </script>
+        
+</body>
+</html>

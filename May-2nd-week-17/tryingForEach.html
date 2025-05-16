@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <script>
+                const person = [{
+                                name: 'Anudeep',
+                                age: 35,
+                                position: 'Developer'
+                        },
+                        {
+                                name: 'Ajay',
+                                age: 30,
+                                position: 'All-rounder'
+                        },
+                        {
+                                name: 'Ysinger',
+                                age: 40,
+                                position: 'farmer'
+                        },
+                        {
+                                name: 'Arun',
+                                age: 35,
+                                position: 'Writer'
+                        }
+                ];
+                //Tried anonymous function via foreach. 
+                person.forEach((i) => {
+                        console.log("Name: " + i.name);
+                        console.log("age:" + i.age);
+                        console.log("Occupation: " + i.position);
+                        console.log("--------------------------------------")
+
+
+                });
+        </script>
+</body>
+
+</html>

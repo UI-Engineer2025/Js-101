@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reduce()</title>
+</head>
+
+<body>
+        <script>
+                let acc = 0;
+                const people = [{
+                                name: 'Sally',
+                                job: 'actor',
+                                age: 26,
+                                salary: 450
+                        },
+                        {
+                                name: 'Tally',
+                                job: 'actor',
+                                age: 26,
+                                salary: 250
+                        },
+                        {
+                                name: 'Rally',
+                                job: 'Software Developer',
+                                age: 26,
+                                salary: 2500
+                        },
+                        {
+                                name: 'Gukesh',
+                                job: 'Chess-Champ',
+                                age: 25,
+                                salary: 3500
+                        },
+
+                ];
+                const result = people.reduce(
+                        (acc, current) => {
+                                //onsole.log(current);
+                                acc += current.salary;
+                                //onsole.log(acc);
+                                console.log(current.name + " works as " + current.job + "and earns ->$" +
+                                        current.salary);
+
+                                return acc;
+                        },
+                        5000);
+        </script>
+</body>
+
+</html>

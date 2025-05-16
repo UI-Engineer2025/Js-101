@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+        <script>
+                const people = [
+                {name:'Anudeep', gender:'Male', age:34, Occupation:"Ui-Engineer"},
+                 {name:'Json', gender:'Male', age:43, Occupation:"UI-Specialist"},
+                 {name:'Baylee', gender:'Female', age:28, Occupation:"Banker"},
+                ]
+
+        //Now doing Map->Creates new array and very powerful in returning new array with the 
+        //help of an in-built helper function .join (That joins 2 or more number of arrays)
+
+        const newArrviaMap=people.map(
+                (i)=>{
+
+               document.writeln("<h1>Details:</h1>"+"<h2>name:"+i.name+"</h2>"+
+               "<h2>"+"gender:"+i.gender+"</h2>"+
+               "<h2>"+"age:"+i.age+"</h2>"+
+             "<h2>"+"Job:"+i.Occupation+"</h2> <hr>"
+               
+               );
+               // console.log(i.name);
+                console.log(i.age);
+                console.log(i.gender);
+                console.log(i.Occupation);
+                console.log("---------------------------")
+                return "Hello!";
+                
+                }
+        );
+      
+        console.log(newArrviaMap);
+        console.log("-------------------------------")
+        console.log(people);
+        </script>
+</body>
+
+</html>

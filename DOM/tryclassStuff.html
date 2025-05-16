@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ClassStuff</title>
+        <style>
+                .f-1name {
+                        background-color: blue;
+                        ;
+                        color: white;
+                }
+
+                .karlz {
+                        width: 200px;
+                        background-color: black;
+                        color: yellow;
+                        font-family: 'Times New Roman', Times, serif;
+                        ;
+
+                }
+                .wood{
+                 width:150px;
+                 background-color: brown;
+                 color:whitesmoke;
+                 font-family: Verdana, sans-serif;
+                 font-size: 23px;
+                }
+        </style>
+</head>
+
+<body>
+        <h1 class="f-1name" id="one">Adarsh</h1>
+        <h1 class="f-2name" id="two">Anudeep</h1>
+        <h1 class="f-4name" id="three">Anwesh</h1>
+
+        <script>
+                var x = document.getElementById('one');
+                //Now we will set the f1.classname for the rest of the peers
+                var y = document.getElementById('two');
+                var z = document.getElementById('three');
+
+                //var k = 'karlz';
+                var c='wood';
+                var arr=[x,y,z];
+                
+                
+                
+                function ph() {
+                        x.className = arr[0];
+                        y.className = arr[0];
+
+                        z.className = arr[0];
+                }
+
+                
+                
+              for(let i=0; i<=2;i++)
+              {
+                arr[i]=c;
+                //console.log(arr);
+              }
+           console.log(arr);
+           ph();
+           
+        </script>
+</body>
+
+</html>

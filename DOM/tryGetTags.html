@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>getTags</title>
+</head>
+
+<body>
+        <ol>
+                <li>Orissa</li>
+                <li>Gujarat</li>
+                <li>Andhra Pradesh</li>
+                <li>Karnataka</li>
+                <li>Maharashtra</li>
+                <li>Tamil Nadu</li>
+        </ol>
+
+        <script>
+                const x = document.getElementsByTagName('li');
+
+                const y = [...x];
+                // console.log(y);
+                // console.log(typeof y);
+
+                // y.forEach(
+                //         function (i) {
+                //                 console.log(i);
+                //         }
+                // );
+              y[2].style.backgroundColor="Black";
+              y[2].style.backgroundColor="Yellow";
+              y[2].style.width="200px";
+              y[2].style.fontFamily="Verdana";
+              y[2].style.fontSize=35;
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<title>VariableLookup</title>
+</head>
+
+<body>
+
+<script>
+let numdef=40;
+let result=0;
+let n1=parseInt(window.prompt("Integer b/w 1-10"));
+let n2=parseInt(window.prompt("Integer b/w 1-10"));
+
+
+function add(n1, n2)
+{
+ 
+ //numdef=75;
+ console.log(n1,n2);
+
+//Now the scope for the local-value becomes more;
+ diff();
+ return result;
+ 
+
+
+   function diff()
+    {
+     //console.log(numdef);
+     console.log(n1,n2);
+     result=numdef+n1+n2;
+     console.log(result);
+     
+    
+    }
+}
+
+
+const appliedResult=add(n1,n2);
+
+console.log(appliedResult);
+
+
+
+</script>
+
+
+</body>
+</html>

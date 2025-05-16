@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TryingGet</title>
+</head>
+
+<body>
+        <ul>
+                <li class="okati" id="2">One</li>
+                <a href="#" id="link">Nothing</a>
+                <li id="3"></li>
+        </ul>
+
+        <script>
+                const x = document.getElementById('link');
+                console.log(x);
+                //Getting the attribute
+                const y = x.getAttribute('href');
+                console.log(y);
+                //Now modifying the attr avalue
+
+                const z = x.setAttribute('class', 'anchor-1');
+                console.log(z);
+                console.log(x);
+                x.textContent = "You got an invible class attribute";
+
+                const a = document.getElementById('3');
+                a.setAttribute('class', 'Third');
+                a.textContent = "List is dynamically embedded";
+        </script>
+</body>
+
+</html>

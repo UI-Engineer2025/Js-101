@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0">
+<title>trying 'return' key now()</title>
+</head>
+<body>
+document.write("Trying the function return keyword");
+
+<script type="text/javascript">
+
+/*Lets Radius will be provided by the user
+and will calculate the area of circle using:Pi*r*r;
+Then, we will convert it to cms and inches; */
+
+const pi=3.14;
+const inching_val=11;//1-inch is equal to 2.54cm's; 
+
+const r_of_circle=parseInt(window.prompt("Enter the radius of the circle:"));
+console.log(typeof r_of_circle);
+//Assuming and testing the value in this program;
+
+
+
+let area = function area_of_circle(){ return pi*(r_of_circle*r_of_circle);};
+
+
+//This is how functional-expressions are done. 
+
+//console.log("The area of circle is: "+area_in_cms+" cent-meters");
+
+//ea_of_circle();
+console.log("Area of circle is:"+area()+"\{cms\}");
+ </script>
+ </body>
+ </html>
+ 

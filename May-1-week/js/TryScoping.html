@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-value=0">
+<title>Scope Trying</title>
+</head>
+
+<body>
+<script>
+
+/*Important differences between 'Let', 'Var/Undeclared/invisible/undefined/unsecure', {let/const defining is less confusing" */
+
+let n1="wxtiun";//Global-scope
+let n2="brilgt";//Global scope
+
+
+if(true)
+{
+n1="xtrewko";
+n2="xx987treg";
+
+console.log(n1);
+console.log(n2);
+n3="Unfukble";//Its has a Local-scope
+n4="bsfshsj6";
+n4="anudeep";
+
+function anne()
+{
+ var n4="diff-anudeep";
+ 
+
+}
+anne();
+}
+
+console.log(n1);
+console.log(n2);
+console.log(n3);
+console.log(n4);//It throws error: 'Let' and 'const' work similarly inside the code, blocks. 
+
+//'defining 'var' or not defining 'var' is completely different;
+
+
+
+//---------------------------------------------------------------------------
+//Important difference testing between 'let', 'const' and 'var/'
+
+var x1="a";
+const l1="a";
+const f1="a";
+let y1="a";
+z1="a";
+
+const t=x1===l1===f1===z1===y1;
+const f=x1===z1;
+console.log(t);
+console.log("----------------------");
+console.log(f);
+
+//--------------------------------------------------------
+</script>
+
+</body>
+
+</html>

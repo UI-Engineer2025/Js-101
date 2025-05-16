@@ -1,0 +1,1 @@
+May, 09 2025:------------------------------------JS-101:=====================================--69 Working on variable lookup;--Tried 69 examples;--Working on 70 callbackFunctions, Higher order;--70 callback-refrences are done. --Trying now();--Understood CallbackRef's@18.06 NM)--lOGGING OUT nOW()

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Filter</title>
+</head>
+
+<body>
+        <script>
+                const people = [
+                        {
+                                name: 'bob',
+                                age: 20,
+                                position: 'developer'
+                        },
+                          {
+                                name: 'cat',
+                                age: 23,
+                                position: 'designer'
+                        },
+                        {
+                                name: 'Elephant',
+                                age: 2100,
+                                position: 'King'
+                        },
+                         {
+                                name: 'Lion',
+                                age: 21,
+                                position: 'Serving King'
+                        }
+
+                ]
+
+                   //Passing a callback here 
+                const x=people.filter(
+                        (y)=>{   return y.age>251;          }
+                );
+                console.log(x);
+        </script>
+</body>
+
+</html>

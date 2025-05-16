@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>reduce()</title>
+</head>
+
+<body>
+        <script>
+                const calves = [{
+                                name: 'Anudeep',
+                                grade: 6,
+                                total_score: 417
+                        },
+                        {
+                                name: 'Hemanth',
+                                grade: 9,
+                                total_score: 545
+                        },
+                        {
+                                name: 'Jayanth',
+                                grade: 9,
+                                total_score: 555
+                        },
+                        {
+                                name: 'Teja',
+                                grade: 10,
+                                total_score: 590
+                        },
+                        {
+                                name: 'Rameez',
+                                grade: 8,
+                                total_score: 537
+                        },
+                        {
+                                name: 'Ravi Teja',
+                                grade: 10,
+                                total_score: 595
+                        },
+
+                ];
+
+                const red =calves.reduce((a,i)=>{
+                
+                
+                return a+=i.total_score;
+                },
+                0)/calves.length;
+               console.info("The average among the calves is :"+parseInt(red)+"/600");
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TryInsertBefore</title>
+</head>
+
+<body>
+
+        <script>
+                function two() {
+                        x = document.createElement('h2');
+
+                        x.textContent = "Hello";
+
+                        document.body.appendChild(x);
+                }
+
+                function one() {
+
+                        let y = document.createElement('h1');
+
+
+
+                        y.textContent = "First-Heading";
+                        document.body.appendChild(y);
+                }
+                one();
+                two();
+                
+        </script>
+</body>
+
+</html>
