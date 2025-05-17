@@ -9,40 +9,39 @@
 
 <body>
 
-<h1>Here are the List Items:</h1>
-<ul id="result">
-    <li class="one">One</li>
-    <li class="two">Two</li>
-    <li class="three">Three</li>
-</ul>
+    <h1>Here are the List Items:</h1>
+    <ul id="result">
+        <li class="one">One</li>
+        <li class="two">Two</li>
+        <li class="three">Three</li>
+    </ul>
 
-<div id="chill"></div>
-
-
-
-
-<script>
-
-const res=document.querySelector('#result');
-// console.log(res);
-// console.log(res.children);
-
-//Now trying prepend() and innerText()
-//removing 
-
-res.remove();
-//creating and element:
-const x=document.createElement('h1');
-
-const y=document.body.innerText="Hello";
-x.prepend(y);
-res.prepend(x);
+    <div id="chill"></div>
 
 
 
-//Funtion Expression:
-var r=function li(){
-    document.body.innerHTML=`
+
+    <script>
+        const res = document.querySelector('#result');
+        // console.log(res);
+        // console.log(res.children);
+
+        //Now trying prepend() and innerText()
+        //removing 
+
+        res.remove();
+        //creating and element:
+        const x = document.createElement('h1');
+
+        const y = document.body.innerText = "Hello";
+        x.prepend(y);
+        res.prepend(x);
+
+
+
+        //Funtion Expression:
+        var r = function li() {
+            document.body.innerHTML = `
     <h1>Good morning pals!</h1>
     <ul id="result">
     <li class="one">One</li>
@@ -50,14 +49,14 @@ var r=function li(){
     <li class="three">Three</li>
 </ul>`;
 
-}
+        }
 
-console.log(r);
+        console.log(r);
 
 
 
-r();
-</script>
+        r();
+    </script>
 </body>
 
 </html>
