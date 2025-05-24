@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+    <style>
+        .dwoke {
+            background-color: navy;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: whitesmoke;
+        }
+
+       div{
+      width:260px;
+      height:260px;
+      border:30px solid dodgerblue;
+      border-style: groove;
+       }
+    </style>
+</head>
+
+<body>
+    <h2>This text is in the heading!!!</h2>
+    <button class="btn">Click Me</button>
+
+    <hr />
+
+    <div id="img">
+
+    </div>
+
+    <script>
+        const x = document.querySelector('.btn');
+        const z = document.getElementById('img');
+        const y = document.querySelector('.img');
+        x.addEventListener('click', () => {
+            // z.textContent = "Hello there!";
+          
+
+            z.innerHTML = `<img src="happy.gif" width=260 height=260px>`;
+
+            
+
+
+
+        });
+    </script>
+</body>
+
+</html>
