@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryingFuncRef</title>
+</head>
+
+<body>
+    <div class="roy">
+
+        <span class="nm">Anudeep Nayakoti</span>
+
+    </div>
+    <br />
+    <button class="btn">Click</button>
+
+
+    <button class="cls">Change></button>
+
+
+    <button class="norm">OriginalView</button>
+
+
+
+
+
+    <script>
+        const x = document.querySelector('.btn');
+        const el = document.querySelector('.nm');
+        const cl = document.querySelector('.cls');
+        const o = document.querySelector('.norm');
+
+
+
+        function classify() {
+
+
+            //Lets implement the toggle 
+
+            el.style.fontSize = "100px";
+            el.style.color = "pink";
+
+
+
+
+
+        }
+
+        function clean() {
+            el.style.color = "";
+        }
+
+
+        function org() {
+            window.location.reload();
+        }
+        x.addEventListener('click', classify);
+
+        cl.addEventListener('click', clean);
+
+        o.addEventListener('click', org);
+    </script>
+</body>
+
+</html>
