@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+
+    <style>
+        .btn {
+            background-color: red;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+        }
+
+        .berlin {
+            background-color: yellow;
+            color: black;
+            border: 2px;
+            border-radius: 3%;
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+    <h1>This is the first heading!</h1>
+
+    <button class="btn">Click me</button>
+
+
+
+    <script>
+        const x = document.querySelector('h1');
+        const y = document.querySelector('.btn');
+
+
+        //Mouseup and Mouse down are fired as soon as the user clicks the button. 
+        y.addEventListener('mouseup', () => {
+            console.log("UP");
+        });
+        y.addEventListener('mousedown', () => {
+            console.log("down");
+        });
+
+        //MouseEnter or Hovering heading;
+
+        y.addEventListener('mouseenter', () => {
+            y.classList.add('berlin');
+        });
+        y.addEventListener('mouseleave', () => {
+            window.document.location.reload();
+        });
+    </script>
+</body>
+
+</html>
