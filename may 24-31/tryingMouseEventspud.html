@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyEvents</title>
+</head>
+
+<body>
+    <h1>Hello!</h1>
+
+    <input id="name" type="text" placeholder="Enter your name please?">
+    <button class="btn">Enter</button>
+
+
+    <script>
+        let p = '';
+        //keypress
+        x = document.getElementById('name');
+        x.addEventListener('keypress', () => {
+            console.log('Keys are pressed');
+        });
+        let y = 0;
+        //keydown
+        x.addEventListener('keydown', () => {
+            y++;
+            console.log('once: ' + y);
+        });
+
+        //keyup
+        const s = document.querySelector('.btn');
+
+        s.addEventListener('click', () => {
+
+             i = document.createElement('p');
+            i.innerText = "Your name is: " + x.value;
+
+
+            document.body.append(i);
+        });
+       
+
+        //Extracting the value using 'keyup'
+    </script>
+</body>
+
+</html>
