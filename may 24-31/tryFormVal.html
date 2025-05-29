@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Values</title>
+</head>
+
+<body>
+    <form action="#" id="fr">
+        <p>Enter your name:
+            <input id="fname" type="text" placeholder="Enter your name" required /></p>
+        <p>Enter your Password:
+            <input id="pass" type="password" placeholder="Enter your password" required /></p>
+        <button class="btn">Submit</button>
+        <script>
+            const fr = document.getElementById('fr');
+            const name = document.getElementById('fname');
+            const pss = document.getElementById('pass');
+            const bt = document.querySelector('.btn');
+            bt.addEventListener('click', (e) => {
+                console.log("Entered name is :" + name.value);
+                console.log("Entered password is : " + pss.value);
+
+            });
+        </script>
+</body>
+
+</html>
