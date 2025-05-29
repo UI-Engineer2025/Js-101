@@ -1,0 +1,11 @@
+May 29, 20205 {05:58 29-05-2025}:
+======================================================================================================================Js-101:
+----------------------------------------------------------------------------------------------------------------------
+@Listening lecture#118:Event propagation and bubbling; Status:Done!
+@Listening Lecture#119:Event propagation example; Status:Done!
+@listening Lecture#120:Forms; Status:Done!
+@listening Lecture#121:LocaL Storage; Status:Done!
+
+Non-JS:
+----------------------------------------------------------------------------------------------------------------------
+-(Raghupathi Venkaiah `Naidu@-Ma-{chilli}-patnam)=>15 October 1869:=>`Father of Telugu cinema;
