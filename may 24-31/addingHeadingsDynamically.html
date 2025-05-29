@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DynamicCreatingHeadings</title>
+   
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">I am sitting here.</h1>
+    </div>
+   
+    <button class="btn">Click Me</button>
+    <script>
+        const xc = document.querySelector('.container');
+        const yh = document.querySelector('.heading');
+        const bt = document.querySelector('.btn');
+        
+        let i = 0;
+        bt.addEventListener('click', (e) => {
+            const el = document.createElement('p');
+            el.textContent = "Number of times you clicked: " + i;
+            i++;
+           xc.appendChild(el);
+        
+            
+            
+        });
+      
+     
+    </script>
+</body>
+
+</html>
