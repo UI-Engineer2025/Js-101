@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryingLocalStorage</title>
+</head>
+<body>
+
+
+    <script>
+        const arr=['Jamun', 'Pear', 'Berry'];
+      
+  
+        arr.push('Plum');
+        //console.log(arr);
+          localStorage.setItem('arr', JSON.stringify(arr));
+     
+
+     const items=JSON.parse(localStorage.getItem('arr'));
+     
+     console.log(items);
+    </script>
+    
+</body>
+</html>

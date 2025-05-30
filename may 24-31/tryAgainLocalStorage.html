@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorageInBuiltMethods</title>
+</head>
+<body>
+    <script>
+     const authors=['Anita', 'Ruskin', 'Jhumpa'];
+   
+           localStorage.setItem('writers', JSON.stringify(authors));
+
+    const writers=JSON.parse(localStorage.getItem('writers'));
+    console.log(writers);
+    </script>
+</body>
+</html>
