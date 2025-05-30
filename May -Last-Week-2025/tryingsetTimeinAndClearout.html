@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryingSetTimeOut</title>
+</head>
+
+<body>
+    <script>
+        let x = () => {
+            console.log('X time:' + Date())
+
+        }
+
+        let dt = () => {
+            console.log('Dt!' + Date());
+        }
+
+        let y = setTimeout(x, 3000);
+        //Every setTimeout() will give the unique ID
+        console.log(y);
+        let z = setTimeout(dt, 3000);
+        console.log(z);
+        //This clearTimeOut won't let the function associated with the Unique ID.
+        //We are getting via 'y';
+       // window.clearTimeout(z);
+    </script>
+</body>
+
+</html>

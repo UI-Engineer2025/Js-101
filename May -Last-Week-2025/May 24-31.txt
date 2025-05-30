@@ -54,9 +54,11 @@ May 29-30th, 2025{07:35 30-05-2025}
 =====================================================================================================================
 JS-101:
 ---------------------------------------------------------------------------------------------------------------------
-@Lectures 116-120 until local storage is done. 
-@Listening lecture-121:Local Storage with multiple values Status:Done!
--Practicing:Done!09:27 30-05-2025. 
+-Lectures 116-120 until local storage is done. 
+-Listening lecture-121:Local Storage with multiple values; Status:Done!
+#Practicing:Done!09:27 30-05-2025. 
+-Listening lecture-121:setTimeOut(); Status:Done!{17:43 30-05-2025}
+#Practicing:Done!{18:03 30-05-2025}
 
 
 
