@@ -66,7 +66,17 @@ May 31, 2025{09:11 31-05-2025}
 ---------------------------------------------------------------------------------------------------------------------
 -Listening setInterval lecture#123; status:Done!
 #Practice:Done!{09:29 31-05-2025}
-
+---------------------------------------------------------------------------------------------------------------------Non-JS:
+=====================================================================================================================
+-The `Adler (German for "Eagle") was the first locomotive that was successfully used commercially for the rail transport of passengers and goods in Germany. The railway vehicle was designed and built in 1835 by the British railway pioneers George and Robert Stephenson in the English city of Newcastle.
+-George {Stephenson} is renowned as the "Father of Railways";
+-Twenty shillings made a pound. 
+-Ore is the basic unit of Denmark, Greenland, Norway and Sweden;Currencies are known as recpective Kronas. For example, Sweden->Swedish krona;Greenland and Denmark->Danish krone;{S-øre-n} is Denmark chemist known for pH and Karlsburg.
+-India, Nepal and Pakisthan's fractional unit is Paisa; Similarly, Israel and Palestine has same Fractional unit:'Agora'; Likewise, currencies too:Rupee and Shekel;
+-Only, Palestine has 3 different currencies in the entire world:Isreal New Shekel, Egyptian pound and Jordonian Dinar.
+-UK is C->Sterling and Fractional Unit->Penny.
+-Mexico currency is peso and fractional Unit is "Centavos"; Many countries in South America, has the currency as 'Peso';
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
 
